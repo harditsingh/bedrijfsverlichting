@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400|Playfair+Display');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body,
+#fullheight {
+    font-family: 'Lato' !important;
+    min-height: 100% !important;
+    background: #ffffff;
+    background: -moz-linear-gradient(-45deg, #ffffff 0%, #f4f4f4 100%);
+    background: -webkit-linear-gradient(-45deg, #ffffff 0%, #f4f4f4 100%);
+    background: linear-gradient(135deg, #ffffff 0%, #f4f4f4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f4f4f4', GradientType=1);
+}
+
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.inner-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 800px;
+    background: #fff;
+}
+
+.logo-container {
+    text-align: center;
+    width: 65%;
+    margin: 30px auto;
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f2f2f2;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    line-height: 1.7em;
+    width: 50%;
+    padding: 10%;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 240px;
+    border-top: 1px solid #efefef;
+    height: 50px;
+}
+
+.footer-title {
+    color: #ffffff;
+    font-size: 120%;
+}
+
+.foundation-logo {
+    margin-top: 10px;
+}
+
+.logo-container img {
+    width: 300px;
+}
+
+.weblink {
+    font-size: 12px;
+    color: #343434;
+    margin: 5px 0;
+}
+
+.weblink a {
+    color: #343434;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.weblink a:hover {
+    color: #226dc2;
+}
+
+.message-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    background: url("../img/teamphoto.png");
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    background-position: bottom right;
+}
+
+.message-top-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #ffffff;
+    font-size: 200%;
+    background: url("../img/message-back.jpg") no-repeat 50% 50%;
+    width: 100%;
+    height: 150px;
+}
+
+.message {
+    flex-grow: 1;
+    padding: 20px 30px;
+}
+
+.message p {
+    font-size: 85%;
+    line-height: 1.7em;
+    color: #343434;
+    margin: 2em 0;
+}
+
+.message .title {
+    font-size: 110%;
+    color: #121212;
+}
+
+.brands {
+    width: 70%;
+    padding: 20px 0px;
+}
+
+.brands img {
+    width: 100%;
+}
+
+.header {
+    z-index: 5;
+    box-shadow: 0 8px 8px -6px #a3a3a3;
+}
+
+.footer {
+    display: flex;
+    color: #16bdac;
+    font-size: 13px;
+    width: 100%;
+    /* height: 200px; */
+    background: #00746f;
+    background: -moz-linear-gradient(-90deg, #00746f 0%, #00a093 100%);
+    background: -webkit-linear-gradient(-90deg, #00746f 0%, #00a093 100%);
+    background: linear-gradient(90deg, #00746f 0%, #00a093 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00746f', endColorstr='#00a093', GradientType=1);
+}
+
+.footer-text {
+    border-top: 1px solid #efefef;
+}
+
+.white-text {
+    color: #dedede;
+    text-align: center;
+}
+
+.mobile {
+    display: none;
+    line-height: 1.7em;
+    width: 50%;
+    padding: 10px 0 30px 0;
+}
+
+.desktop {
+    display: block;
+    border-top: none;
+}
+
+.phone-number {
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin: auto 0;
+}
+
+.phone-number span:first-child {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.fa,
+.fas,
+.fab {
+    padding: 10px;
+    font-size: 15px;
+    width: 13px;
+    text-align: center;
+    text-decoration: none;
+    margin: 8px 5px;
+    border-radius: 50%;
+}
+
+.fa:hover,
+.fas:hover,
+.fab:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook,
+.fa-phone,
+.fa-linkedin {
+    background: #FFFFFF;
+    color: #00746f;
+}
+
+.button {
+    background-color: #fe8300;
+    background: -moz-linear-gradient(0deg, #fe8300 0%, #e16700 100%);
+    background: -webkit-linear-gradient(0deg, #fe8300 0%, #e16700 100%);
+    background: linear-gradient(180deg, #fe8300 0%, #e16700 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe8300', endColorstr='#e16700', GradientType=1);
+    display: inline-block;
+    height: 38px;
+    padding: 0 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: opacity 0.1s ease-in-out;
+    margin: 130px 300px 40px 0;
+}
+
+.button:hover {
+    opacity: 0.7;
+    outline: 0;
+}
+
+@media (max-width: 800px) {
+    footer {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .footer-column {
+        text-align: center;
+        padding: 30px 10%;
+        justify-content: space-around;
+    }
+
+    .button {
+        margin: 0px 0px 230px 0px;
+    }
+
+    .phone-number {
+        text-align: center;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .phone-number span {
+        margin: 0 5px;
+    }
+}
+
+@media (max-width: 720px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .message-container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 550px) {
+    .message-container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .logo-container {
+        width: 85%;
+    }
+
+    .logo-container img {
+        width: 100%;
+    }
+}
