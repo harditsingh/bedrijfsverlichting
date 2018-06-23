@@ -260,7 +260,7 @@ body,
 }
 
 @media (max-width: 800px) {
-    footer {
+    .footer {
         flex-wrap: wrap;
         justify-content: space-around;
     }
